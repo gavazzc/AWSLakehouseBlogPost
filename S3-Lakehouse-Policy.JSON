@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::rs-lakehouse-blog-post",
+                "arn:aws:s3:::rs-lakehouse-blog-post/greentaxi/*",
+                "arn:aws:s3:::rs-lakehouse-blog-post/extract_longterm/*",
+                "arn:aws:s3:::rs-lakehouse-blog-post/extract_midterm/*",
+                "arn:aws:s3:::rs-lakehouse-blog-post/extract_shortterm/*",
+    "arn:aws:s3:::rs-lakehouse-blog-post/accesslogs/*"
+            ]
+        }
+    ]
+}
+
